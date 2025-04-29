@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: self-hosted    # This is a self-hosted runner running on your ec2 instance
+    runs-on: ubuntu-latest    
 
     strategy:
       matrix:
